@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EssentialsEmailAttach.View.PageEmailSQLite"
+             Title="Email con archivo adjunto">
+    <ContentPage.Content>
+        <FlexLayout AlignContent="Center" Padding="10,10,10,10">
+            <StackLayout>
+                <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                    <Label Text="Email with attachment file!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+                </Frame>
+                <Label Text="Clic en el bóton Enviar email!" FontSize="25" HorizontalTextAlignment="Center"/>
+                <Button x:Name="sendEmail" FontSize="Medium" BorderColor="White" BorderWidth="2" Padding="30,0,30,0"
+                        FlexLayout.AlignSelf="Center" CornerRadius="50"  HorizontalOptions="CenterAndExpand" 
+                        Text="Enviar Email" Clicked="btn_Clicked" TextColor="White" BackgroundColor="#2196F3"/>
+            </StackLayout>
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EssentialsEmailAttach.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Welcome to API Xamarin.Essentials Email with attachment file!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Label Text="API Xamarin.Essentials and SQLite" FontSize="Title" Padding="30,10,30,10"/>
+            <Label Text="Ejemplo práctico acerca de la API Xamarin.Essentials - Enviando email con archivo adjunto!" FontSize="16" Padding="30,0,30,0"/>
+            <Button x:Name="signUp" FontSize="Medium" BorderColor="White" BorderWidth="2" Padding="30,10,30,10"
+                    FlexLayout.AlignSelf="Center" CornerRadius="50"  HorizontalOptions="CenterAndExpand" 
+                    Text="Email and SQLite" Clicked="btn_Clicked" TextColor="White" BackgroundColor="#2196F3"/>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
